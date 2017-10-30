@@ -1,0 +1,143 @@
+2017-10-29T08:24:10+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:24:21+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:25:12+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:27:06+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:27:56+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:28:48+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:29:06+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:40:28+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:42:29+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:43:17+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:43:24+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:43:35+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+
+2017-10-29T08:43:47+00:00 CRITICAL Uncaught Error: Class 'MP_Gateway_BACS' not found in /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php:105
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#1 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#2 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#3 /Applications/MAMP/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(68): WooCommerce->payment_gateways()
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(298): wc_template_redirect('')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wp-includes/template-l
+

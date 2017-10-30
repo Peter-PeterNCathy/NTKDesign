@@ -29,6 +29,7 @@ add_action( 'storefront_header', 'storefront_primary_navigation_wrapper',       
 add_action( 'storefront_header', 'storefront_primary_navigation',               50 );
 add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
 
+
 /**
  * Footer
  *

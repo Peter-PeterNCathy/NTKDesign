@@ -550,7 +550,6 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 	function storefront_product_categories( $args ) {
 
 		if ( storefront_is_woocommerce_activated() ) {
-
 			$args = apply_filters( 'storefront_product_categories_args', array(
 				'limit' 			=> 3,
 				'columns' 			=> 3,
@@ -558,6 +557,7 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 				'orderby' 			=> 'name',
 				'title'				=> __( 'Shop by Category', 'storefront' ),
 			) );
+
 
 			$shortcode_content = storefront_do_shortcode( 'product_categories', apply_filters( 'storefront_product_categories_shortcode_args', array(
 				'number'  => intval( $args['limit'] ),
@@ -570,7 +570,6 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 			 * Only display the section if the shortcode returns product categories
 			 */
 			if ( false !== strpos( $shortcode_content, 'product-category' ) ) {
-
 				echo '<section class="storefront-product-section storefront-product-categories" aria-label="' . esc_attr__( 'Product Categories', 'storefront' ) . '">';
 
 				do_action( 'storefront_homepage_before_product_categories' );
