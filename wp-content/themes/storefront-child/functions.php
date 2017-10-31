@@ -49,7 +49,7 @@ function mp_product_categories_args( $args ) {
 	
 	if ( !empty($t) ) {
 		$args['child_categories'] = $t->term_id;
-		$args['title'] = __( 'Shop by ' . $t->name, 'ntkdesign' );
+		$args['title'] = __( $t->name, 'ntkdesign' );
 	}
 	return $args;
 	

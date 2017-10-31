@@ -44,8 +44,20 @@ FAQ
     border-color: #9bd8e3;
     color: white;
 }
+.added_to_cart {
+	background-color: #ffec78;
+	color: #4f4f4f;
+	border-radius: 5px;
+}
+.added_to_cart:hover {
+	background-color: #ffef8c;
+	color: #4f4f4f;
+}
 .woocommerce-mini-cart__buttons {
 	font-size: small;
+}
+.woocommerce-mini-cart__buttons .wc-forward:after {
+	content: unset;
 }
 .woocommerce-mini-cart__buttons .checkout {
 	background-color: #586b8f !important;
@@ -347,8 +359,7 @@ FAQ
     border-color: #eb5757;
 }
 
-.page-template-template-homepage .onsale,
-.tax-product_cat .onsale {
+.page-template-template-homepage .onsale {
 	display: none;
 }
 
@@ -357,7 +368,7 @@ FAQ
 }
 .woocommerce-message,
 .woocommerce-message a{
-	color: #4f4f4f;
+	color: #4f4f4f !important;
 }
 .woocommerce-info {
 	background-color: #586b8f;
@@ -438,6 +449,9 @@ table.cart th{
 
 .mp-secondary-navigation {
 	font-size: medium;
+}
+.woocommerce-active .site-header .site-header-cart {
+	width: 22.73913%;
 }
 
 .site-header {
