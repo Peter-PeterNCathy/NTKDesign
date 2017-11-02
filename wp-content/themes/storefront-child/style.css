@@ -103,10 +103,27 @@ FAQ
     margin: 0 auto 2em;
     font-size: medium;
 }
+.home .product-category .count {
+	display: none;
+}
 
 /*
 ** Product Detail
 */
+.single-product .onsale {
+	display: none;
+}
+.single-product .product_title {
+	font-size: x-large;
+    font-weight: 400;
+}
+.single-product del .woocommerce-Price-amount {
+	font-size: medium;
+}
+.single-product ins .woocommerce-Price-amount {
+	font-size: larger;
+    color: #586b8f;
+}
 .single_add_to_cart_button {
 	/* == add_to_cart_button */
 	background-color: #addce4 !important;
@@ -168,8 +185,9 @@ Footer
 }
 .site-footer .widget-title {
 	border-color: #e0e0e0;
-	margin-left: 1.5em;
-    margin-right: 1.5em;
+	margin-left: 1.78em;
+    margin-right: 1.78em;
+    font-size: larger;
     text-align: center;
 }
 .footer-widgets {
@@ -177,6 +195,19 @@ Footer
 }
 .footer-widgets .widget {
 	margin-bottom: 0;
+}
+
+.site-footer .phone:before {
+	content: "\f095";
+	font-family: "FontAwesome";
+	margin-right: .33em;
+	width: 16px;
+    height: 16px;
+}
+.site-footer .email:before {
+	content: "\f003";
+	font-family: "FontAwesome";
+	margin-right: .33em;
 }
 
 .es_widget_form {
@@ -264,8 +295,8 @@ Thankyou
 }
 .mp-thankyou-notice-icon {
 	text-align: center;
-	width: 64px;
-	margin: 0 auto 1em;
+	width: 256px;
+	margin: 0 auto 2em;
 }
 ul.order_details {
 	margin: 1.706326em 0;
@@ -339,6 +370,13 @@ FAQ
 }
 
 /*
+Thankyou
+*/
+.page-id-22 .entry-header {
+	display: none;
+}
+
+/*
 ** Global
 */
 .entry-title {
@@ -347,6 +385,9 @@ FAQ
 
 .woocommerce-Price-amount {
 	font-weight: bold;
+}
+ul.products li.product img {
+	margin-bottom: 0.618em;
 }
 
 .onsale {

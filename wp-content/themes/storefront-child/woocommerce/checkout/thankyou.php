@@ -43,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<div class="mp-thankyou-notice_title">Thank You</div>
 				<?php $notice = 'We have received your order #' . $order->get_id() . ' and are getting started on it right way.'; ?>
 				<p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text', __( $notice, 'ntkdesign' ), $order ); ?></p>	
-				<div class="mp-thankyou-notice-icon"><img src="/wp-content/uploads/2017/10/CAR.png"></div>
+				<div class="mp-thankyou-notice-icon"><img src="/wp-content/uploads/2017/10/bg_delivery.png"></div>
 			</div>
 			
 
