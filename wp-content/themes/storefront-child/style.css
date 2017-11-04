@@ -101,7 +101,8 @@ FAQ
     padding: 0;
     border-radius: 5px;
     margin: 0 auto 2em;
-    font-size: medium;
+    font-size: small;
+    font-weight: bold;
 }
 .home .product-category .count {
 	display: none;
@@ -364,16 +365,25 @@ FAQ
 .wpcf7 .center {
 	text-align: center;
 }
-.wpcf7 .wpcf7-submit {}
+.wpcf7 .wpcf7-submit {
 	padding: 0px 16px;
     font-size: 1.33em;	
 }
 
 /*
-Thankyou
+** About
 */
 .page-id-22 .entry-header {
 	display: none;
+}
+/*
+** My Account
+*/
+.woocommerce-account .entry-header {
+	display: none;
+}
+.woocommerce-MyAccount-navigation ul li a {
+	color: #586b8f;
 }
 
 /*
@@ -477,6 +487,13 @@ table.cart th{
 */
 .main-navigation ul li a:hover {
 	color: #586b8f;
+	text-shadow: 0px 0px 24px #abb5c7;
+}
+.site-header ul.menu li.current-menu-item > a {
+	color: #586b8f;
+}
+.main-navigation ul li a:focus {
+	outline: none;
 }
 .main-navigation ul.sub-menu {
 	background-color: #f4f4f2 !important;

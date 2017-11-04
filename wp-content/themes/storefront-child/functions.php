@@ -21,6 +21,8 @@ function remove_actions_parent_theme() {
 	// end Shop
 
 	// storefront
+	remove_action( 'homepage', 'storefront_featured_products',     40 );
+	remove_action( 'homepage', 'storefront_popular_products',      50 );
 	remove_action( 'homepage', 'storefront_best_selling_products', 70 );
 
 	add_action( 'storefront_header', 'mp_secondary_navigation_wrapper',       2 );
